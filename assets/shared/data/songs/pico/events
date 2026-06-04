@@ -1,0 +1,17 @@
+{
+	"events": [
+		[
+			46545.4545454546,
+			[
+				["Middlescroll", "player", "2.0"]
+			]
+		],
+		[
+			69818.1818181819,
+			[
+				["Middlescroll", "Default", "2.0"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}
