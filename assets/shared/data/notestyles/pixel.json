@@ -1,0 +1,146 @@
+{
+	"version": "1.1.0",
+	"name": "Pixel Note",
+	"author": "Moawling",
+	"fallback": "Pixel",
+	"assets": {
+		"notePixel": {
+			"assetPath": "noteSkins/pixel/NOTE_assets",
+			"scale": 6.0,
+			"columns": 4,
+			"rows": 5,
+			"data": {
+				"left": {"indices": [4], "frameRate": 24, "looped": true},
+				"down": {"indices": [5], "frameRate": 24, "looped": true},
+				"up": {"indices": [6], "frameRate": 24, "looped": true},
+				"right": {"indices": [7], "frameRate": 24, "looped": true},
+				"leftStatic": {"indices": [0], "frameRate": 24, "looped": true},
+				"leftPress": {"indices": [4, 8], "frameRate": 12, "looped": false},
+				"leftConfirm": {"indices": [12, 16], "frameRate": 24, "looped": false},
+				"downStatic": {"indices": [1], "frameRate": 24, "looped": true},
+				"downPress": {"indices": [5, 9], "frameRate": 12, "looped": false},
+				"downConfirm": {"indices": [13, 17], "frameRate": 24, "looped": false},
+				"upStatic": {"indices": [2], "frameRate": 24, "looped": true},
+				"upPress": {"indices": [6, 10], "frameRate": 12, "looped": false},
+				"upConfirm": {"indices": [14, 18], "frameRate": 12, "looped": false},
+				"rightStatic": {"indices": [3], "frameRate": 24, "looped": true},
+				"rightPress": {"indices": [7, 11], "frameRate": 12, "looped": false},
+				"rightConfirm": {"indices": [15, 19], "frameRate": 24, "looped": false}
+			}
+		},
+		"holdNotePixel": {
+			"assetPath": "noteSkins/pixel/NOTE_assetsENDS",
+			"scale": 6.0,
+			"columns": 8,
+			"rows": 1,
+			"data": {
+				"leftHold": {"indices": [0], "frameRate": 24, "looped": true},
+				"leftHoldEnd": {"indices": [1], "frameRate": 24, "looped": true},
+				"downHold": {"indices": [2], "frameRate": 24, "looped": true},
+				"downHoldEnd": {"indices": [3], "frameRate": 24, "looped": true},
+				"upHold": {"indices": [4], "frameRate": 24, "looped": true},
+				"upHoldEnd": {"indices": [5], "frameRate": 24, "looped": true},
+				"rightHold": {"indices": [6], "frameRate": 24, "looped": true},
+				"rightHoldEnd": {"indices": [7], "frameRate": 24, "looped": true}
+			}
+		},
+		"holdNoteCoverPixel": {
+			"assetPath": "holdCovers/pixel/pixelNoteHoldCover",
+			"offsets": [29, -4],
+			"centerOnStrum": true,
+			"scale": 6.0,
+			"columns": 1,
+			"rows": 1,
+			"data": {
+				"enabled": true,
+				"left": {
+					"start": {"prefix": "loop0000", "frameRate": 24, "looped": false},
+					"hold": {"prefix": "loop", "frameRate": 24, "looped": true},
+					"end": {"prefix": "explode", "frameRate": 24, "looped": false}
+				},
+				"down": {
+					"start": {"prefix": "loop0000", "frameRate": 24, "looped": false},
+					"hold": {"prefix": "loop", "frameRate": 24, "looped": true},
+					"end": {"prefix": "explode", "frameRate": 24, "looped": false}
+				},
+				"up": {
+					"start": {"prefix": "loop0000", "frameRate": 24, "looped": false},
+					"hold": {"prefix": "loop", "frameRate": 24, "looped": true},
+					"end": {"prefix": "explode", "frameRate": 24, "looped": false}
+				},
+				"right": {
+					"start": {"prefix": "loop0000", "frameRate": 24, "looped": false},
+					"hold": {"prefix": "loop", "frameRate": 24, "looped": true},
+					"end": {"prefix": "explode", "frameRate": 24, "looped": false}
+				}
+			}
+		},
+		"noteSplash": {
+			"assetPath": "noteSplashes/noteSplashes-pixel",
+			"scale": 1.0,
+			"allowPixel": true,
+			"data": {
+				"enabled": true,
+				"framerateDefault": 33,
+				"framerateVariance": 2,
+				"leftSplashes": [
+					{"prefix": "note splash purple 1"},
+					{"prefix": "note splash purple 2"},
+					{"prefix": "note splash purple 3"}
+				],
+				"downSplashes": [
+					{"prefix": "note splash blue 1"},
+					{"prefix": "note splash blue 2"},
+					{"prefix": "note splash blue 3"}
+				],
+				"upSplashes": [
+					{"prefix": "note splash green 1"},
+					{"prefix": "note splash green 2"},
+					{"prefix": "note splash green 3"}
+				],
+				"rightSplashes": [
+					{"prefix": "note splash red 1"},
+					{"prefix": "note splash red 2"},
+					{"prefix": "note splash red 3"}
+				]
+			}
+		},
+		"countdownThree": {
+			"data": {"audioPath": "intro3-pixel"},
+			"assetPath": null
+		},
+		"countdownTwo": {
+			"data": {"audioPath": "intro2-pixel"},
+			"assetPath": "ui/countdown/pixel/ready-pixel",
+			"scale": 6.0
+		},
+		"countdownOne": {
+			"data": {"audioPath": "intro1-pixel"},
+			"assetPath": "ui/countdown/pixel/set-pixel",
+			"scale": 6.0
+		},
+		"countdownGo": {
+			"data": {"audioPath": "introGo-pixel"},
+			"assetPath": "ui/countdown/pixel/date-pixel",
+			"scale": 6.0
+		},
+		"judgementMarvelous": {"assetPath": "ui/popup/pixel/marvelous", "scale": 5.1},
+		"judgementSick": {"assetPath": "ui/popup/pixel/sick", "scale": 5.1},
+		"judgementGood": {"assetPath": "ui/popup/pixel/good", "scale": 5.1},
+		"judgementBad": {"assetPath": "ui/popup/pixel/bad", "scale": 5.1},
+		"judgementShit": {"assetPath": "ui/popup/pixel/shit", "scale": 5.1},
+		"combo": {"assetPath": "ui/popup/pixel/combo", "scale": 5.1},
+		"comboNumber0": {"assetPath": "ui/popup/pixel/num0-pixel", "scale": 6.0},
+		"comboNumber1": {"assetPath": "ui/popup/pixel/num1-pixel", "scale": 6.0},
+		"comboNumber2": {"assetPath": "ui/popup/pixel/num2-pixel", "scale": 6.0},
+		"comboNumber3": {"assetPath": "ui/popup/pixel/num3-pixel", "scale": 6.0},
+		"comboNumber4": {"assetPath": "ui/popup/pixel/num4-pixel", "scale": 6.0},
+		"comboNumber5": {"assetPath": "ui/popup/pixel/num5-pixel", "scale": 6.0},
+		"comboNumber6": {"assetPath": "ui/popup/pixel/num6-pixel", "scale": 6.0},
+		"comboNumber7": {"assetPath": "ui/popup/pixel/num7-pixel", "scale": 6.0},
+		"comboNumber8": {"assetPath": "ui/popup/pixel/num8-pixel", "scale": 6.0},
+		"comboNumber9": {"assetPath": "ui/popup/pixel/num9-pixel", "scale": 6.0}
+	},
+	"allowRGB": false,
+	"allowPixel": true
+}
