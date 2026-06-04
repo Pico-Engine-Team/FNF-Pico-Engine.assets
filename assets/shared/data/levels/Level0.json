@@ -1,0 +1,27 @@
+{
+	"storyName": "TEACHING TIME (pico-mix)",
+	"storyDifficulties": "Pico",
+	"freeplayDifficulties": "Darnell, Pico-Remix",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"pico-player",
+		"nene"
+	],
+	"songs": [
+		[
+			"Tutorial",
+			"gf",
+			[
+				165,
+				0,
+				77
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial"
+}

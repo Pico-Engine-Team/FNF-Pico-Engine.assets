@@ -1,0 +1,91 @@
+{
+	"storyName": "Extra Freeplay",
+	"freeplayDifficulties": "Hard, Pico, Boyfriend",
+	"weekBackground": "",
+	"hideFreeplay": true,
+	"weekBefore": "",
+	"section": "extraFreeplay",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"stay-funky",
+			"bf",
+			[
+				28,
+				34,
+				219
+			]
+		],
+		[
+			"lo-fight",
+			"extra/whitty",
+			[
+				29,
+				30,
+				53
+			]
+		],
+		[
+			"endless",
+			"extra/exe/majin-encore",
+			[
+				0,
+				0,
+				215
+			]
+		],
+		[
+			"sky",
+			"face",
+			[
+				19,
+				44,
+				187
+			]
+		],
+		[
+			"all-hail-the-king",
+			"extra/bowser",
+			[
+				194,
+				137,
+				51
+			]
+		],
+		[
+			"ruckus",
+			"extra/matt",
+			[
+				225,
+				226,
+				126
+			]
+		],
+		[
+			"thunderstorm",
+			"extra/shaggy",
+			[
+				184,
+				0,
+				0
+			]
+		],
+		[
+			"kmfdm",
+			"face",
+			[
+				184,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": true,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Extra Freeplay"
+}

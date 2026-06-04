@@ -1,0 +1,48 @@
+{
+	"storyName": "DADDY DEAREST",
+	"freeplayDifficulties": "Pico, Darnell, Darnell Remix",
+	"difficulties": "",
+	"weekBackground": "stage",
+	"hideFreeplay": false,
+	"weekBefore": "tutorial",
+	"hideStorySongs": [],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Bopeebo",
+			"dad",
+			[
+				175,
+				102,
+				206
+			]
+		],
+		[
+			"Fresh",
+			"dad",
+			[
+				175,
+				102,
+				206
+			]
+		],
+		[
+			"Dad Battle",
+			"dad",
+			[
+				175,
+				102,
+				206
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyDifficulties": "Normal, Hard",
+	"weekName": "Week 1",
+	"hiddenUntilUnlocked": false
+}
