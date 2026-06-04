@@ -1,0 +1,31 @@
+{
+	"directory": "week1",
+	"defaultZoom": 0.9,
+	"stageUI": "",
+
+	"boyfriend": [989.5, 885],
+	"girlfriend": [751.5, 787],
+	"opponent": [335, 885],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [-100, -100],
+	"camera_opponent": [150, -100],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+
+	"preload": {
+		"images/remix/wall": 3,
+		"images/remix/spotlight": 3,
+		"images/remix/bg_curtain": 3,
+		"images/remix/bg_curtain1": 3,
+		"images/remix/crowd": 3,
+		"images/remix/stage": 3,
+		"images/remix/bg_lights": 3
+	},
+
+	"_editorMeta": {
+		"boyfriend": "bf",
+		"dad": "dad",
+		"gf": "gf"
+	}
+}
